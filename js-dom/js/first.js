@@ -6,6 +6,6 @@ for (const blog of blogs) {
     blog.style.border = '2px solid red';
     blog.style.borderRadius = '10px';
     blog.style.margin = '5px';
+    console.log(blog);
 }
 
-console.logF(blog);
