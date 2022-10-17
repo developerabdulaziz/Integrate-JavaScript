@@ -4,6 +4,8 @@ document.getElementById
 document.getElementsByClassName
 document.querySelector
 document.querySelectorAll
+stopImmediatePropagation
+stopPropagation
 */
 
 // Dynamic style, getAttribute, setAttribute, innerText, innerHTML
