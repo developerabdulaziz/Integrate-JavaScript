@@ -24,3 +24,6 @@ stopPropagation
 // Different ways to use addEventListener on a button
 
 // Most common ways to set Event Handlers
+
+
+
