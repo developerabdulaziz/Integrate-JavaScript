@@ -1,8 +1,4 @@
 
-// // Balance
-// const balance = document.getElementById('balance');
-// const balanceNumber = balance.innerText;
-
 
 
 document.getElementById('calculate-btn').addEventListener('click', function () {
@@ -70,12 +66,12 @@ function calculateSavings() {
 
     const balance = document.getElementById('balance');
     const balanceNumber = balance.innerText;
-    const balance2 = parseInt(balanceNumber);
-    console.log(balance2);
-    console.log(savingAmountNumber);
+    const balanceAmount = parseInt(balanceNumber);
+    // console.log(balance2);
+    // console.log(savingAmountNumber);
 
     const remaining = document.getElementById('remaining-balance');
-    const result = balance2 - parseInt(savingAmount.innerText);
+    const result = balanceAmount - parseInt(savingAmount.innerText);
     remaining.innerText = result;
 
 }
